@@ -21,7 +21,10 @@ from rest_framework.response import Response
 from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
+from django.views.decorators.csrf import csrf_exempt
 
+
+@csrf_exempt
 @api_view(["POST"])
 def send_alert(request):
     message = request.data.get("message", "No Message")
