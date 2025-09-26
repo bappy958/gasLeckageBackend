@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*", "https://gas-leak-detector.onrender.com"] # sob jayga theka request korta parba
 
-CSRF_TRUSTED_ORIGINS = ["https://gas-leak-detector.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://gas-leak-detector.onrender.com", "https://*.127.0.0.1"]
 
 
 
