@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_)v^nx8khyh^re$+2kk1kaofy4@ptbe38m_7=!lf7*uxyv9@1n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"] # sob jayga theka request korta parba
+ALLOWED_HOSTS = ["*", "gas-leak-detector.onrender.com"] # sob jayga theka request korta parba
 
 CSRF_TRUSTED_ORIGINs = ["*"]
 
